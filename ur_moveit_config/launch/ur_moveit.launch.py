@@ -214,7 +214,7 @@ def launch_setup(context, *args, **kwargs):
 
     # rviz with moveit configuration
     rviz_config_file = PathJoinSubstitution(
-        [FindPackageShare(moveit_config_package), "rviz", "view_robot.rviz"]
+        [FindPackageShare(moveit_config_package), "rviz", "hello_moveit.rviz"]
     )
     rviz_node = Node(
         package="rviz2",
